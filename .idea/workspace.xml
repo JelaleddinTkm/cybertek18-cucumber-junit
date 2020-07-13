@@ -86,9 +86,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="154" y="23" key="CommitChangelistDialog2" timestamp="1594661488174">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state x="154" y="0" key="CommitChangelistDialog2" timestamp="1594661574526">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state x="154" y="0" key="CommitChangelistDialog2/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1594661574526" />
     <state x="154" y="23" key="CommitChangelistDialog2/0.23.1280.777/81.-1057.1920.1057@0.23.1280.777" timestamp="1594661488174" />
     <state width="1228" height="270" key="GridCell.Tab.0.bottom" timestamp="1594659767355">
       <screen x="0" y="0" width="1280" height="800" />
@@ -111,10 +112,10 @@
     </state>
     <state x="33" y="0" key="SettingsEditor/0.0.1280.800/81.-1057.1920.1057@0.0.1280.800" timestamp="1594405823567" />
     <state x="33" y="0" key="SettingsEditor/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1594405467348" />
-    <state x="140" y="100" key="Vcs.Push.Dialog.v2" timestamp="1594661498324">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state x="140" y="79" key="Vcs.Push.Dialog.v2" timestamp="1594661589433">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="140" y="79" key="Vcs.Push.Dialog.v2/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1594661225212" />
+    <state x="140" y="79" key="Vcs.Push.Dialog.v2/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1594661589433" />
     <state x="140" y="100" key="Vcs.Push.Dialog.v2/0.23.1280.777/81.-1057.1920.1057@0.23.1280.777" timestamp="1594661498324" />
     <state x="219" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1594405545194">
       <screen x="0" y="0" width="1280" height="800" />
