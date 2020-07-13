@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4037da40-6874-4608-8626-cb8f22f03719" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1eV7OyHAgGEUUz2xn9EKtx5apNs" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cybertek.utilities" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cybertek18-cucumber-junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.runners" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.runners.CukesRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CukesRunner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4037da40-6874-4608-8626-cb8f22f03719" name="Default Changelist" comment="" />
+      <created>1594394877951</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594394877951</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1228" height="270" key="GridCell.Tab.0.bottom" timestamp="1594659767355">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1228" height="270" key="GridCell.Tab.0.bottom/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1594659767355" />
+    <state width="1228" height="270" key="GridCell.Tab.0.center" timestamp="1594659767352">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1228" height="270" key="GridCell.Tab.0.center/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1594659767352" />
+    <state width="1228" height="270" key="GridCell.Tab.0.left" timestamp="1594659767350">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1228" height="270" key="GridCell.Tab.0.left/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1594659767350" />
+    <state width="1228" height="270" key="GridCell.Tab.0.right" timestamp="1594659767354">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1228" height="270" key="GridCell.Tab.0.right/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1594659767354" />
+    <state x="33" y="0" key="SettingsEditor" timestamp="1594405823567">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="33" y="0" key="SettingsEditor/0.0.1280.800/81.-1057.1920.1057@0.0.1280.800" timestamp="1594405823567" />
+    <state x="33" y="0" key="SettingsEditor/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1594405467348" />
+    <state x="219" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1594405545194">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="219" y="196" key="com.intellij.ide.util.TipDialog/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1594405545194" />
+    <state x="221" y="0" width="838" height="1032" key="search.everywhere.popup" timestamp="1594413925482">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="221" y="0" width="838" height="1032" key="search.everywhere.popup/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1594413925482" />
+  </component>
+</project>
