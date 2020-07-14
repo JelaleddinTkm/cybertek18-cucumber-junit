@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",   //this line is for which feature it will run
         glue = "com/cybertek/step_defintitions",    //copy from the source root
         dryRun = false,                            //if we say true, it will skip whole scenario
-        tags = "@loginWithBackground"              //this line says us what will be run
+        tags = "@wip"              //this line says us what will be run
   )
 
 

@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4037da40-6874-4608-8626-cb8f22f03719" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/GoogleSearchPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/step_defintitions/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/step_defintitions/test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/step_defintitions/test2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/step_defintitions/test3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/step_defintitions/GoogleStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/step_defintitions/GoogleStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/LoginWithBackground.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/LoginWithBackground.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Search.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/runners/CukesRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/runners/CukesRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/step_defintitions/GoogleStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/step_defintitions/GoogleStepDefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/LoginWithBackground.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/LoginWithBackground.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Search.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594661915305</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="day02">
+      <created>1594662023543</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1594662023543</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -128,41 +143,45 @@
     <option name="LAST_COMMIT_MESSAGE" value="day02" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="154" y="0" key="CommitChangelistDialog2" timestamp="1594661914105">
+    <state x="154" y="0" key="CommitChangelistDialog2" timestamp="1594662022498">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="154" y="0" key="CommitChangelistDialog2/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1594661914105" />
+    <state x="154" y="0" key="CommitChangelistDialog2/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1594662022498" />
     <state x="154" y="23" key="CommitChangelistDialog2/0.23.1280.777/81.-1057.1920.1057@0.23.1280.777" timestamp="1594661488174" />
-    <state width="1228" height="270" key="GridCell.Tab.0.bottom" timestamp="1594659767355">
+    <state width="1228" height="270" key="GridCell.Tab.0.bottom" timestamp="1594673980231">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1228" height="270" key="GridCell.Tab.0.bottom/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1594659767355" />
-    <state width="1228" height="270" key="GridCell.Tab.0.center" timestamp="1594659767352">
+    <state width="1228" height="270" key="GridCell.Tab.0.bottom/0.0.1280.800/81.-1057.1920.1057@0.0.1280.800" timestamp="1594672447533" />
+    <state width="1228" height="270" key="GridCell.Tab.0.bottom/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1594673980231" />
+    <state width="1228" height="270" key="GridCell.Tab.0.center" timestamp="1594673980228">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1228" height="270" key="GridCell.Tab.0.center/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1594659767352" />
-    <state width="1228" height="270" key="GridCell.Tab.0.left" timestamp="1594659767350">
+    <state width="1228" height="270" key="GridCell.Tab.0.center/0.0.1280.800/81.-1057.1920.1057@0.0.1280.800" timestamp="1594672447523" />
+    <state width="1228" height="270" key="GridCell.Tab.0.center/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1594673980228" />
+    <state width="1228" height="270" key="GridCell.Tab.0.left" timestamp="1594673980227">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1228" height="270" key="GridCell.Tab.0.left/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1594659767350" />
-    <state width="1228" height="270" key="GridCell.Tab.0.right" timestamp="1594659767354">
+    <state width="1228" height="270" key="GridCell.Tab.0.left/0.0.1280.800/81.-1057.1920.1057@0.0.1280.800" timestamp="1594672447518" />
+    <state width="1228" height="270" key="GridCell.Tab.0.left/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1594673980227" />
+    <state width="1228" height="270" key="GridCell.Tab.0.right" timestamp="1594673980229">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1228" height="270" key="GridCell.Tab.0.right/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1594659767354" />
+    <state width="1228" height="270" key="GridCell.Tab.0.right/0.0.1280.800/81.-1057.1920.1057@0.0.1280.800" timestamp="1594672447526" />
+    <state width="1228" height="270" key="GridCell.Tab.0.right/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1594673980229" />
     <state x="33" y="0" key="SettingsEditor" timestamp="1594405823567">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="33" y="0" key="SettingsEditor/0.0.1280.800/81.-1057.1920.1057@0.0.1280.800" timestamp="1594405823567" />
     <state x="33" y="0" key="SettingsEditor/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1594405467348" />
-    <state x="140" y="79" key="Vcs.Push.Dialog.v2" timestamp="1594661919952">
+    <state x="140" y="79" key="Vcs.Push.Dialog.v2" timestamp="1594662026752">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="140" y="79" key="Vcs.Push.Dialog.v2/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1594661919952" />
+    <state x="140" y="79" key="Vcs.Push.Dialog.v2/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1594662026752" />
     <state x="140" y="100" key="Vcs.Push.Dialog.v2/0.23.1280.777/81.-1057.1920.1057@0.23.1280.777" timestamp="1594661498324" />
-    <state x="219" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1594405545194">
+    <state x="219" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1594735899686">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="219" y="196" key="com.intellij.ide.util.TipDialog/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1594405545194" />
+    <state x="219" y="196" key="com.intellij.ide.util.TipDialog/0.0.1280.800/81.-1080.1920.1080@0.0.1280.800" timestamp="1594735899686" />
     <state x="221" y="0" width="838" height="1032" key="search.everywhere.popup" timestamp="1594413925482">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
