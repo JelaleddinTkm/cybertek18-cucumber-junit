@@ -1,11 +1,12 @@
 package com.cybertek.class_notes;
 
-public class day13_Creating_cucumberJunitProject {
+public class day14_Creating_cucumberJunitProject {
 
     /*
 
-CLASS NOTES-6
-JULY 1OTH, TGIFRIDAY
+CLASS NOTES-4
+
+JULY 1OTH, TGI FRIDAY
 
 TODAYS TOPICS:
 1- WE WILL SEE DIFFERENT TYPES OF FRAMEWORKS

@@ -2,29 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4037da40-6874-4608-8626-cb8f22f03719" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/class_notes/day13_cucumberJunitProject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/EtsySearchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/WikiSearchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/runners/FailedTestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/step_defintitions/DataTableStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/step_defintitions/EtsyStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/step_defintitions/WikiStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/DataTableExample.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/EtsySearch.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/GoogleSearchSenarioOutline.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/WikiSearch.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/class_notes/day15_dryRun_Background_Hooks_Parameterization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/class_notes/day16_dataTables_ScenarioOutline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/class_notes/day17_Review_Screenshots_CucumberRerun.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/GoogleSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/GoogleSearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/step_defintitions/GoogleStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/step_defintitions/GoogleStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/step_defintitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/step_defintitions/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/googleSearch.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/pages/GoogleSearchPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/pages/GoogleSearchPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/runners/CukesRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/runners/CukesRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/step_defintitions/GoogleStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/step_defintitions/GoogleStepDefinitions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/step_defintitions/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/step_defintitions/Hooks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Search.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/class_notes/day13_Creating_cucumberJunitProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/class_notes/day14_Creating_cucumberJunitProject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/WikiSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/WikiSearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/step_defintitions/WikiStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/step_defintitions/WikiStepDefinitions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

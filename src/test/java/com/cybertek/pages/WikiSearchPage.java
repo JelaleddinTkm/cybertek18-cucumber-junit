@@ -11,6 +11,7 @@ public class WikiSearchPage {
 
 
     public WikiSearchPage(){
+
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
@@ -23,15 +24,5 @@ public class WikiSearchPage {
 
     @FindBy(className = "fn")
     public WebElement imageHeaderAfterSearch;
-
-
-
-
-
-
-
-
-
-
 
 }
