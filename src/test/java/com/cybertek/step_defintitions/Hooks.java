@@ -1,9 +1,9 @@
 package com.cybertek.step_defintitions;
 
-import io.cucumber.java.After;
-import io.cucumber.java.AfterStep;
-import io.cucumber.java.Before;
-import io.cucumber.java.BeforeStep;
+import com.cybertek.utilities.Driver;
+import io.cucumber.java.*;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 
 public class Hooks {
 
@@ -19,12 +19,40 @@ public class Hooks {
     }
 
 
-    @After(order = 5)
-    public void tearDownScenario(){
-        System.out.println("-----> After annotation: Closing browser");
+    @After(order = 1)
+    public void tearDownScenario(Scenario scenario){
+
+        //System.out.println("-----> After annotation: Closing browser");
+
+//        System.out.println("scenario.getName() = " + scenario.getName());
+//        System.out.println("scenario.getSourceTagNames() = " + scenario.getSourceTagNames());
+//        System.out.println("scenario.isFailed() = " + scenario.isFailed());
+
+        //we need to take a screen shot using Selenium  -->
+        //getScreenshotAs: to be able to use this methos we have to cast our driver type to TakeScreenshot
+
+        byte[] screenshot = (  (TakesScreenshot) Driver.getDriver() ).getScreenshotAs(OutputType.BYTES);
+
+
+        //#1 we need to take a screenshot using SELENIUM
+        //a- we have to cast our Driver type to "TakesScreenshot"
+        //b- then we put the whole code "(TakesScreenshot)Driver.getDriver()" inside parenthesis ()
+        //c- then we say .getScreenshotAs()
+        //d- then we pass "OutputType.BYTES" to the argument
+        //c- then we store the whole structure to an array of byte. Like below
+        //byte [] screenshot = ((TakesScreenshot)Driver.getDriver()).getScreenshotAs(OutputType.BYTES);
+
+
+        //#2 we are going to attach it into our report
+
+        scenario.attach(screenshot, "image/png", scenario.getName());
+
+
     }
 
-    @After(value = "@db", order = 4)
+
+
+    @After(value = "@db", order = 2)
     public void tearDownDatabaseConnection(){
         System.out.println("-----> AFTER ANNOTATION: DB CONNECTION CREATED <-----");
     }

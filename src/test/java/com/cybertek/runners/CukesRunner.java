@@ -8,11 +8,14 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 
-        plugin = "html:target/cucumber-report.html",
-        features = "src/test/resources/features",   //this line is for which feature it will run
+        plugin = {"html:target/cucumber-report.html",
+                  "json:target/cucumber.json",
+                  "rerun:target/rerun.txt"
+        },
+        features = "src/test/resources/features",    //this line is for which feature it will run
         glue = "com/cybertek/step_defintitions",    //copy from the source root
         dryRun = false,                            //if we say true, it will skip whole scenario
-        tags = "@wip"              //this line says us what will be run
+        tags = "@wiki"                            //this line says us what will be run
   )
 
 
