@@ -1,7 +1,6 @@
 Feature: Search
   Agile Story: As a user, I should be able to search when I am on Google search page.
 
-
   Background: User should be on the google search page
     Given User is on the google search page
 
@@ -37,4 +36,5 @@ Feature: Search
       | Settings         |
 
 
-
+    #command option L
+    #control alt L

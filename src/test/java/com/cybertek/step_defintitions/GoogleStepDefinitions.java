@@ -20,17 +20,22 @@ public class GoogleStepDefinitions {
     public void user_is_on_the_google_serarch_page() {
 
         Driver.getDriver().get("https://www.google.com");
-
     }
 
 
     @Then("User should see title is Google")
     public void user_should_see_tittle_is_google() {
 
+        //comparing actual title vs expected
         String actualTitle = Driver.getDriver().getTitle();
         String expectedTitle = "Google";
 
-        Assert.assertEquals("Actual title does not match expected title!", actualTitle,expectedTitle);
+        //THIS LINE WILL FAIL THIS TEST NO MATTER WHAT
+        //Assert.fail("MY CUSTOM MESSAGE FROM MY ASSERT FAIL!..");
+
+        //Both assertions is not needed. Just for the example's sake.
+        Assert.assertTrue("Actual title does not match expected title!",actualTitle.equals(expectedTitle));
+        Assert.assertEquals("Actual title does not match expected title!", actualTitle, expectedTitle);
     }
 
 
@@ -48,8 +53,6 @@ public class GoogleStepDefinitions {
         String actualTitle = Driver.getDriver().getTitle();
 
         Assert.assertEquals(actualTitle, expectedTitle);
-
-
     }
 
 
@@ -70,7 +73,6 @@ public class GoogleStepDefinitions {
         String actualTitle = Driver.getDriver().getTitle();
 
         Assert.assertEquals(actualTitle, expectedTitle);
-
     }
 
 //-------------------------------------------------------------------------------------------
@@ -80,7 +82,6 @@ public class GoogleStepDefinitions {
 
         //asserting that abut link is displayed
         Assert.assertTrue(googleSearchPage.aboutLink.isDisplayed());
-
     }
 
     @And("User clicks to About link")
@@ -89,7 +90,6 @@ public class GoogleStepDefinitions {
         //clicking to about link
         googleSearchPage.aboutLink.click();
     }
-
 
     @Then("User should see title Google - About Google, Our Culture & Company News")
     public void userShouldSeeTitleGoogleAboutGoogleOurCultureCompanyNews() {
@@ -112,4 +112,5 @@ public class GoogleStepDefinitions {
 
         Assert.assertEquals(actualSize, expectedSize);
     }
+
 }
